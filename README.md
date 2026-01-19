@@ -1,15 +1,20 @@
-##🔐 Web Application Security Testing – POC
+🛡️ Web Application Vulnerability Assessment
+Authentication Bypass (Brute Force) & Cross-Site Scripting (XSS)
 
-This repository contains Proof of Concept (POC) documentation for identifying and demonstrating common web application vulnerabilities discovered during authorized security testing.
+This repository contains Proof of Concept (POC) documentation for common web application security vulnerabilities identified during authorized penetration testing.
 
-##📌 Vulnerabilities Covered
-1️⃣ Authentication Bypass via Brute Force
+📌 Overview
 
-The login functionality is vulnerable to brute force attacks.
+The assessment focuses on identifying weaknesses in authentication mechanisms and input validation that may allow attackers to gain unauthorized access or execute malicious scripts.
 
-Username and password combinations can be guessed using wordlists.
+🚨 Vulnerabilities Identified
+🔐 Authentication Bypass via Brute Force
 
-No rate limiting, CAPTCHA, or account lockout is implemented.
+Login functionality allows unlimited attempts.
+
+Username and password can be guessed using wordlists.
+
+No rate limiting, CAPTCHA, or account lockout implemented.
 
 Impact:
 
@@ -19,11 +24,11 @@ Unauthorized Access
 
 Data Breach
 
-2️⃣ Cross-Site Scripting (XSS)
+⚠️ Cross-Site Scripting (XSS)
 
-User input is not properly sanitized.
+User input is not properly validated or sanitized.
 
-Malicious JavaScript can be injected and executed in the victim’s browser.
+Malicious JavaScript can be injected and executed in the browser.
 
 Impact:
 
@@ -33,7 +38,7 @@ Open Redirection
 
 User Session Manipulation
 
-##🛠 Tools Used
+🛠 Tools Used
 
 Burp Suite
 
@@ -41,20 +46,19 @@ Web Browser
 
 Wordlists
 
-##📄 Proof of Concept (POC)
+📄 Proof of Concept (POC)
 
-Detailed step-by-step POC with screenshots is available in the PDF report:
-
+Complete step-by-step demonstration with screenshots is available in the report:
 
 📎 POC_test_php.pdf
 
-##⚠️ Disclaimer
+⚠️ Disclaimer
 
-This project is for educational and authorized security testing purposes only.
-Do NOT test any system without proper permission.
+This repository is intended strictly for educational and authorized security testing purposes.
+Testing systems without permission is illegal.
 The author is not responsible for misuse of this information.
 
-##👤 Author
+👤 Author
 
 Gopi Kumar
 Cyber Security Intern
