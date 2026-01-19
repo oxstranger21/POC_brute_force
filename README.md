@@ -60,6 +60,6 @@ The author is not responsible for misuse of this information.
 
 # 👤 Author
 
-Gopi Kumar
-Cyber Security Intern
+Gopi Kumar                   
+Cyber Security Intern              
 DROP Organization
